@@ -1,7 +1,9 @@
 #include "gtest/gtest.h"
 
-#include "comcan.h"
-//#include "message.h"
+extern "C" {
+   #include "comcan.h"
+   //#include "message.h"
+}
 
 TEST(com, init_func) {
    
