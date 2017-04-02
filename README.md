@@ -2,6 +2,7 @@
 abstract communication interface to support different fieldbus implementation
 
 Design:
+
 comint.h is an abstract interface. Concrete fieldbus implementation need to
 implement the interfacel.
 
